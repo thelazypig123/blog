@@ -1,0 +1,6 @@
+[book]
+authors = ["lazypig"]
+language = "zh-CN"
+description = "The example book covers examples."
+multilingual = false
+src = "src"
