@@ -174,14 +174,10 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="博客待办"><a class="header" href="#博客待办">博客待办</a></h1>
-<ol>
+<ul>
 <li>github需要使用代理提高图片显示速度 </li>
 <li>将mdbook源码上传到github备份</li>
-</ol>
-<p><em><strong>特别重要:</strong></em></p>
-<blockquote>
-<p>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</p>
-</blockquote>
+</ul>
 
                     </main>
 
@@ -212,22 +208,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
