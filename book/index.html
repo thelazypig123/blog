@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
 
     </head>
     <body class="sidebar-visible no-js">
@@ -88,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="chapter_1.html" class="active">首页</a></li><li class="chapter-item expanded "><a href="riji.html"><strong aria-hidden="true">1.</strong> 日记</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="20240108.html"><strong aria-hidden="true">1.1.</strong> 20240108</a></li><li class="chapter-item expanded "><a href="20240115.html"><strong aria-hidden="true">1.2.</strong> 20240115</a></li></ol></li><li class="chapter-item expanded "><a href="todolist.html"><strong aria-hidden="true">2.</strong> todolist</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="博客待办.html"><strong aria-hidden="true">2.1.</strong> 博客待办</a></li></ol></li><li class="chapter-item expanded "><a href="读书笔记.html"><strong aria-hidden="true">3.</strong> 读书笔记</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="读书计划.html"><strong aria-hidden="true">3.1.</strong> 读书计划</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="chapter_1.html" class="active">首页</a></li><li class="chapter-item expanded "><a href="riji.html"><strong aria-hidden="true">1.</strong> 日记</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="20240108.html"><strong aria-hidden="true">1.1.</strong> 20240108</a></li><li class="chapter-item expanded "><a href="20240115.html"><strong aria-hidden="true">1.2.</strong> 20240115</a></li></ol></li><li class="chapter-item expanded "><a href="todolist.html"><strong aria-hidden="true">2.</strong> todolist</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="博客待办.html"><strong aria-hidden="true">2.1.</strong> 博客待办</a></li></ol></li><li class="chapter-item expanded "><a href="读书笔记.html"><strong aria-hidden="true">3.</strong> 读书笔记</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="读书计划.html"><strong aria-hidden="true">3.1.</strong> 读书计划</a></li></ol></li><li class="chapter-item expanded "><a href="互联网知识.html"><strong aria-hidden="true">4.</strong> 互联网知识</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="plantuml制图代码示例.html"><strong aria-hidden="true">4.1.</strong> plantuml制图代码示例</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -173,7 +174,8 @@
 
                 <div id="content" class="content">
                     <main>
-                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+                        <div class="content-wrap">
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="博客开端"><a class="header" href="#博客开端">博客开端</a></h1>
 <p>今天是2024年1月2日。很多年前做个一个博客，但是后来各种原因没有继续，现在帐号都找不到了。这几年生活变化的很快，现在处于一个低谷期，很迷惘，但是又不得不继续向前！</p>
 <p>今年开始我想多记录，多学习，希望今年能够收获到成果。</p>
@@ -192,9 +194,14 @@
 <p>多写文章</p>
 </li>
 </ul>
-<p><img src="https://raw.githubusercontent.com/thelazypig123/photos/main/202403.jpg" alt="202403" /></p>
+<p><img src="https://raw.githubusercontent.com/thelazypig123/photos/main/202403.jpg" alt="2024年元旦" align="center"></p>
 <p>2024年1月2日</p>
+<p>&copy;一只懒猪</p>
 
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
@@ -251,8 +258,17 @@
         <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
 
 
     </div>
+    <main>
+    <div class="content-wrap">
+      
+    </div>
+    <div class="sidetoc">
+        <nav class="pagetoc"></nav>
+    </div>
+</main>
     </body>
 </html>

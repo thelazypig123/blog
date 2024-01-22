@@ -29,3 +29,10 @@ renderer = ["html"]
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
+[output.html]
+additional-css = ["theme/pagetoc.css"]
+additional-js = ["theme/pagetoc.js"]
+
+[preprocessor.plantuml]
+plantuml-cmd="plantuml"
+

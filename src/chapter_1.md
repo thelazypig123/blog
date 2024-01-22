@@ -14,6 +14,8 @@
 
 + 多写文章
 
-![202403](https://raw.githubusercontent.com/thelazypig123/photos/main/202403.jpg)
+<p><img src="https://raw.githubusercontent.com/thelazypig123/photos/main/202403.jpg" alt="2024年元旦" align="center"></p>
 
 2024年1月2日
+
+<p>&copy;一只懒猪</p>
