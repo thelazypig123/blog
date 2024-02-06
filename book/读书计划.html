@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="chapter_1.html">首页</a></li><li class="chapter-item expanded "><a href="riji.html"><strong aria-hidden="true">1.</strong> 日记</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="20240108.html"><strong aria-hidden="true">1.1.</strong> 20240108</a></li><li class="chapter-item expanded "><a href="20240115.html"><strong aria-hidden="true">1.2.</strong> 20240115</a></li></ol></li><li class="chapter-item expanded "><a href="todolist.html"><strong aria-hidden="true">2.</strong> todolist</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="博客待办.html"><strong aria-hidden="true">2.1.</strong> 博客待办</a></li></ol></li><li class="chapter-item expanded "><a href="读书笔记.html"><strong aria-hidden="true">3.</strong> 读书笔记</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="读书计划.html" class="active"><strong aria-hidden="true">3.1.</strong> 读书计划</a></li></ol></li><li class="chapter-item expanded "><a href="互联网知识.html"><strong aria-hidden="true">4.</strong> 互联网知识</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="plantuml制图代码示例.html"><strong aria-hidden="true">4.1.</strong> plantuml制图代码示例</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="chapter_1.html">首页</a></li><li class="chapter-item expanded "><a href="riji.html"><strong aria-hidden="true">1.</strong> 日记</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="20240108.html"><strong aria-hidden="true">1.1.</strong> 20240108</a></li><li class="chapter-item expanded "><a href="20240115.html"><strong aria-hidden="true">1.2.</strong> 20240115</a></li><li class="chapter-item expanded "><a href="赡养风波.html"><strong aria-hidden="true">1.3.</strong> 20240206</a></li></ol></li><li class="chapter-item expanded "><a href="todolist.html"><strong aria-hidden="true">2.</strong> todolist</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="博客待办.html"><strong aria-hidden="true">2.1.</strong> 博客待办</a></li></ol></li><li class="chapter-item expanded "><a href="读书笔记.html"><strong aria-hidden="true">3.</strong> 读书笔记</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="读书计划.html" class="active"><strong aria-hidden="true">3.1.</strong> 读书计划</a></li></ol></li><li class="chapter-item expanded "><a href="互联网知识.html"><strong aria-hidden="true">4.</strong> 互联网知识</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="plantuml制图代码示例.html"><strong aria-hidden="true">4.1.</strong> plantuml制图代码示例</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -218,22 +218,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
